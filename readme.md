@@ -53,7 +53,7 @@ Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını alt
 
     7) Öğrenci tablosundaki öğrencinin adını, soyadını ve numarasını okul numarası olarak listeleyiniz. (as kullanım örneği)
 
-    	SELECT ograd, ogrsoyad, okulno AS 'Okul Numarası' FROM ogrenci;
+    	SELECT ograd, ogrsoyad, ogrno AS 'Okul Numarası' FROM ogrenci;
 
     8) Öğrenci tablosundaki öğrencinin adını ve soyadını birleştirip, adsoyad olarak listeleyiniz. (concat, as kullanım örneği)
 
